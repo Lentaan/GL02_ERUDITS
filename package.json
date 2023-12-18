@@ -1,0 +1,23 @@
+{
+  "name": "orus",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "homescreen.js",
+  "bin": {
+    "orus": "./homescreen.js"
+  },
+  "scripts": {
+    "start": "node ./homescreen.js start",
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "@caporal/core": "^2.0.7",
+    "caporal": "^1.4.0",
+    "inquirer": "^9.2.12",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}
